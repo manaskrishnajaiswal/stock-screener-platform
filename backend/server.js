@@ -4,6 +4,7 @@ import path from "path";
 import colors from "colors";
 import morgan from "morgan";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
+import screenerRoutes from "./routes/screenerRoutes.js";
 
 dotenv.config();
 
